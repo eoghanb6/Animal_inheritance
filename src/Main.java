@@ -53,6 +53,7 @@ public class Main {
 
         for (Organism value : values)
         {
+           System.out.println("The " + value.species +" says ");
             value.speak();
         }
 
